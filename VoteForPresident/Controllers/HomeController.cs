@@ -11,6 +11,7 @@ namespace VoteForPresident.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            Console.WriteLine("test");
             return View();
         }
     }
